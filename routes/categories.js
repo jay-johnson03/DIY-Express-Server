@@ -1,8 +1,10 @@
-// mini express ap for category routes, using the imported categories
+// the mini express ap for category routes, using the imported categories
 import express from 'express';
 import { categories, getNextId } from '../data/storage.js';
 
 const router = express.Router();
+
+// i used a bunch of websites to try and figure this out so let me know if it's still wrong. :)
 
 // GET all categories
 router.get('/', (req, res) => {
