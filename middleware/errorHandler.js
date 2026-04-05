@@ -1,5 +1,3 @@
-// middleware/errorHandler.js
-
 // 404 handler (unknown routes)
 export const notFound = (req, res, next) => {
     res.status(404).json({
